@@ -74,6 +74,66 @@
 					],
                     'tags'          : ['Graphics']
                 },
+				{
+                    'title'         : 'UNDP Project Map, 2020',
+                    'description'   : '<strong>Description</strong>: Present infographic was developed for UNDP Project dealing with HCFC phase out in Uzbekistan. It demonstrates project components, goals, tasks, project partners.<br/><strong>Role:</strong> Designer and editor.',
+                    'thumbnail'     : ['portfolio/images/small/20a.jpg'],
+                    'large'         : ['portfolio/images/large/20a.jpg'],
+                    'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
+                    'button_list'   :
+                    [
+						{ 'title':'Download', 'url' : '', 'new_window' : true }
+					],
+                    'tags'          : ['Graphics']
+                },
+					{
+                    'title'         : 'Virtual Reality Maze, 2020',
+                    'description'   : '<strong>Description</strong>: Virtual reality application for Microsoft Mixed Reality was created within the framework of VR Interactive class attended during Spring 2020. It demonstrates use of teleportation, object manipulation and other features.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'thumbnail'     : ['portfolio/images/small/17a.jpg'],
+                    'large'         : ['portfolio/images/large/17a.jpg'],
+                    'img_title'     : ['Screenshot 1'],
+                    'button_list'   :
+                    [
+						{ 'title':'Download', 'url' : '', 'new_window' : true }
+					],
+                    'tags'          : ['Augmented/Virtual Reality']
+                },
+					{
+                    'title'         : 'AR Experience and 3d Model for Ohio Today Magazine, 2020',
+                    'description'   : '<strong>Description</strong>: For winter 2020 issue of Ohio Today magazine an augmented reality experience and 3d model was created to accompany the interview/article about 3d printing. 3d model of Thomas Jefferson was originally developed from real-life model using photogammetry technology and Blender.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'thumbnail'     : ['portfolio/images/small/18a.jpg'],
+                    'large'         : ['portfolio/images/large/18a.jpg'],
+                    'img_title'     : ['Screenshot 1'],
+                    'button_list'   :
+                    [
+						{ 'title':'Download', 'url' : '', 'new_window' : true }
+					],
+                    'tags'          : ['Augmented/Virtual Reality']
+                },
+				{
+                    'title'         : 'AR Portal with 360 Video, 2019',
+                    'description'   : '<strong>Description</strong>: AR portal featuring android application was developed within the framework of VR Production class at Ohio University. It demonstrates possibility of combining AR with 360 video in real time.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'thumbnail'     : ['portfolio/images/small/16a.jpg'],
+                    'large'         : ['portfolio/images/large/16a.jpg'],
+                    'img_title'     : ['Screenshot 1'],
+                    'button_list'   :
+                    [
+						{ 'title':'Download', 'url' : '', 'new_window' : true }
+					],
+                    'tags'          : ['Augmented/Virtual Reality']
+                },
+					{
+                    'title'         : 'Web VR Chess, 2020',
+                    'description'   : '<strong>Description</strong>: Web VR/3d chess developed using A-frame and javascript. It demonstrates possibilities of A-Frame in creating virtual/3d experiences.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'thumbnail'     : ['portfolio/images/small/19a.jpg'],
+                    'large'         : ['portfolio/images/large/19a.jpg'],
+                    'img_title'     : ['Screenshot 1'],
+                    'button_list'   :
+                    [
+						{ 'title':'Download', 'url' : '', 'new_window' : true }
+					],
+                    'tags'          : ['Augmented/Virtual Reality']
+                },
                 {
                     'title'         : 'Intangible Cultural Heritage of Uzbekistan Website, 2014',
                     'description'   : '<strong>Description</strong>: The official website of intangible cultural heritage of Uzbekistan was developed on the request of the National Commission of Uzbekistan for UNESCO and ICHCAP in the Republic of Korea. Main goal of the website is to inform the public about existing elements of intangible cultural heritage and provide reference information. The website was created in 3 languages (English, Uzbek and Russian) and was adapted to mobile/tabled devices. Additional features are: a spell check system (by selecting and clicking “Ctrl+Enter”), photo, video and audio sections. The website also has an integrated database system, which allows relevant specialist to enter the data on any ICH element with accompanying files directly into the database from onsite location.<br/><strong>Role:</strong>  I was designer, website developer and translator.',
@@ -160,6 +220,18 @@
 						{ 'title':'Mini game demo', 'url':'http://ozonegame.org/TMQuiz.apk', 'new_window' : true}
                     ],
                     'tags'          : ['Websites', 'Others']
+                },
+				{
+                    'title'         : 'Understanding VR: Quiz, 2019',
+                    'description'   : '<strong>Description</strong>: The quiz application, which accompanies the course on the basics of VR was developed using Scratch scripting language. It was created to possibilities of Scratch for educational purposes.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'thumbnail'     : ['portfolio/images/small/15a.jpg'],
+                    'large'         : ['portfolio/images/large/15a.jpg'],
+                    'img_title'     : ['Home page of the game', 'Mini games section', 'Game intro video'],
+                    'button_list'   :
+                    [
+                        { 'title':'Link', 'url':'', 'new_window' : true}
+                    ],
+                    'tags'          : ['Others']
                 },
 				{
                     'title'         : 'Interactive pdf article, 2017',

@@ -715,7 +715,7 @@ $(function() {
                         // ObjUl.addClass("og-grid-small");
                         ObjUl.addClass("elastislide-list");
                         ObjUl.elastislide();
-                        var carousel = $('<div class="elastislide-wrapper elastislide-horizontal"></div>');
+                        var carousel = $('<div class="elastislide-wrapper elastislide-horizontal" style="display:none !important;"></div>');
                         carousel.append(ObjUl).find('.related_photo').bind('click', function(){
                             carousel.find('.selected').removeClass('selected');
                             $(this).addClass('selected');
@@ -736,7 +736,7 @@ $(function() {
                                 });
                             }
                         });
-                        self.$details.append('<div class="infosep"></div>');
+                        self.$details.append('<div class="infosep" style="display:none;"></div>');
                         self.$details.append(carousel);
                     }else{
                         self.$details.find('.infosep, .og-grid-small').remove();

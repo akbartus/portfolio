@@ -82,7 +82,19 @@
                     'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
                     'button_list'   :
                     [
-						{ 'title':'Download', 'url' : '', 'new_window' : true }
+						{ 'title':'Demo', 'url' : 'https://drive.google.com/open?id=1RKh8mUN4KQnNM2FRO3FdE-MEOjd8maCw', 'new_window' : true }
+					],
+                    'tags'          : ['Graphics']
+                },
+					{
+                    'title'         : 'Identity Theft: A Dialogue Based Infographic, 2020',
+                    'description'   : '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> Designer, developer, programmer.',
+                    'thumbnail'     : ['portfolio/images/small/21a.jpg'],
+                    'large'         : ['portfolio/images/large/21a.jpg'],
+                    'img_title'     : ['Screenshot 1'],
+                    'button_list'   :
+                    [
+						{ 'title':'Demo', 'url' : 'https://identity-theft-interactive-infographic.glitch.me/', 'new_window' : true }
 					],
                     'tags'          : ['Graphics']
                 },
@@ -94,19 +106,19 @@
                     'img_title'     : ['Screenshot 1'],
                     'button_list'   :
                     [
-						{ 'title':'Download', 'url' : '', 'new_window' : true }
+						
 					],
                     'tags'          : ['Augmented/Virtual Reality']
                 },
 					{
                     'title'         : 'AR Experience and 3d Model for Ohio Today Magazine, 2020',
-                    'description'   : '<strong>Description</strong>: For winter 2020 issue of Ohio Today magazine an augmented reality experience and 3d model was created to accompany the interview/article about 3d printing. 3d model of Thomas Jefferson was originally developed from real-life model using photogammetry technology and Blender.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'description'   : '<strong>Description</strong>: For winter 2020 issue of Ohio Today magazine an augmented reality experience and 3d model was created to accompany the interview/article about 3d printing. 3d model of Thomas Jefferson was originally developed from real-life model using photogammetry technology and Blender. AR is available in print version of the magazine only.<br/><strong>Role:</strong> Author, developer and programmer.',
                     'thumbnail'     : ['portfolio/images/small/18a.jpg'],
                     'large'         : ['portfolio/images/large/18a.jpg'],
                     'img_title'     : ['Screenshot 1'],
                     'button_list'   :
                     [
-						{ 'title':'Download', 'url' : '', 'new_window' : true }
+						{ 'title':'Demo', 'url' : 'https://ohiotoday.org/medium-meets-machine/', 'new_window' : true }
 					],
                     'tags'          : ['Augmented/Virtual Reality']
                 },
@@ -118,19 +130,20 @@
                     'img_title'     : ['Screenshot 1'],
                     'button_list'   :
                     [
-						{ 'title':'Download', 'url' : '', 'new_window' : true }
+						{ 'title':'Demo', 'url' : 'https://www.youtube.com/watch?v=Kg-IaD3oRYg', 'new_window' : true },
+						{ 'title':'Download', 'url' : 'https://drive.google.com/open?id=1mfV8WJqRa2ADruIpUD5-6u4ZCsUuMuHp', 'new_window' : true }
 					],
                     'tags'          : ['Augmented/Virtual Reality']
                 },
 					{
                     'title'         : 'Web VR Chess, 2020',
-                    'description'   : '<strong>Description</strong>: Web VR/3d chess developed using A-frame and javascript. It demonstrates possibilities of A-Frame in creating virtual/3d experiences.<br/><strong>Role:</strong> Author, developer and programmer.',
+                    'description'   : '<strong>Description</strong>: Web VR/3d chess being developed using A-frame and javascript. It demonstrates possibilities of A-Frame in creating virtual/3d experiences.<br/><strong>Role:</strong> Author, developer and programmer.',
                     'thumbnail'     : ['portfolio/images/small/19a.jpg'],
                     'large'         : ['portfolio/images/large/19a.jpg'],
                     'img_title'     : ['Screenshot 1'],
                     'button_list'   :
                     [
-						{ 'title':'Download', 'url' : '', 'new_window' : true }
+						
 					],
                     'tags'          : ['Augmented/Virtual Reality']
                 },
@@ -229,7 +242,7 @@
                     'img_title'     : ['Home page of the game', 'Mini games section', 'Game intro video'],
                     'button_list'   :
                     [
-                        { 'title':'Link', 'url':'', 'new_window' : true}
+                        { 'title':'Link', 'url':'https://scratch.mit.edu/projects/337922529/', 'new_window' : true}
                     ],
                     'tags'          : ['Others']
                 },

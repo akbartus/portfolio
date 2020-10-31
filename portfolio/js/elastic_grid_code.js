@@ -11,84 +11,67 @@
             [
                 {
                     'title'         : 'Commitment Award Logo Design, 2012',
-                    'description'   : '<strong>Description</strong>: The Commitment Award is an annual contest, organized by the Willy Brandt School of Public Policy, which seeks to give students the opportunity to apply what they have learned at the School and to initiate new social initiatives in Erfurt and around the world. The logo was developed following the request made by the organizing committee of the award. The colors, used in the logo, are the same as used officially by the Willy Brandt School.<br/><strong>Role:</strong> I was author and designer of the logo.',
+                    'description'   : '<strong>Description</strong>: The Commitment Award is an annual contest, organized by the Willy Brandt School of Public Policy, which seeks to give students the opportunity to apply what they have learned at  School and to initiate new social initiatives in Erfurt and around the world. The logo was developed following the request made by the organizing committee of the award.<br/><strong>Role:</strong> I was author and designer of the logo.',
                     'thumbnail'     : ['portfolio/images/small/3a.jpg'],
                     'large'         : ['portfolio/images/large/3a.jpg'],
                     'img_title'     : ['Commitment award website', 'Commitment award logo', 'Information about Commitment award'],
                     'button_list'   :
                     [
-						{ 'title':'Demo', 'url' : 'http://commitmentaward.org/', 'new_window' : true },
-						{ 'title':'Download', 'url':'https://drive.google.com/uc?authuser=0&id=1ACk1hnVRh7dJnNPQCREUe5Jmusd-4Nyi&export=download', 'new_window' : true}
-                    ],
+						{ 'title':'Demo', 'url' : 'http://commitmentaward.org/', 'new_window' : true }
+					],
                     'tags'          : ['Graphics']
                 },
 				{
-                    'title'         : '“Intangible Cultural Heritage Elements of Ferghana Valley” project, 2013',
-                    'description'   : '<strong>Description</strong>: The project, implemented by the National Commission of Uzbekistan for UNESCO jointly with ICHCAP, aimed at digitizing intangible cultural heritage existing in the Ferghana Valley of Uzbekistan. In particular, audio and video materials on ICH elements were prepared and published as a set of 4 CDs and 6 DVDs. On all of these disks a traditional pattern, which is usually found on plates originating from the Ferghana valley was used.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all CDs/DVDs, including their patterns.',
+                    'title'         : '“Intangible Cultural Heritage Elements of the Ferghana Valley” project, 2013',
+                    'description'   : '<strong>Description</strong>: The project, implemented by the National Commission of Uzbekistan for UNESCO jointly with ICHCAP, aimed at digitizing intangible cultural heritage existing in the Ferghana Valley of Uzbekistan. In particular, audio and video materials on ICH elements were prepared and published as a set of 4 CDs and 6 DVDs.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials, including booklet, website, CDs/DVDs.',
                     'thumbnail'     : ['portfolio/images/small/5a.jpg'],
                     'large'         : ['portfolio/images/large/5a.jpg'],
                     'img_title'     : ['All disks with demonstration of traditional pattern', 'Pattern on a disk', 'Pattern on a disk', 'Booklet cover design'],
                     'button_list'   :
                     [
-						{ 'title':'Demo', 'url' : 'http://www.ichcap.org/eng/ek/sub5/main.php', 'new_window' : true },
-						{ 'title':'Download book', 'url':'https://www.ichcap.org/eng/ek/sub5/pdf_file/handbook_eng.pdf', 'new_window' : true}
+						{ 'title':'Demo', 'url' : 'http://www.ichcap.org/eng/ek/sub5/main.php', 'new_window' : true }
                     ],
                     'tags'          : ['Graphics']
                 },
 				{
                     'title'         : '“Melodies from Uzbekistan” Project, 2015',
-                    'description'   : '<strong>Description</strong>: Within the framework of Fine Arts Institute-ICHCAP Joint Cooperation Project superannuated and damaged ICH-related data, available in the archive of the Institute and related to the fifties of the XX century, was restored, digitized and published in the form of 8 CDs and 2 DVDs. The aim of the project was improving public accessibility of ICH-related data. <br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all CDs/DVDs, developing an autorun program with interactive gallery; translating all materials.',
+                    'description'   : '<strong>Description</strong>: Within the framework of Uzbekistan Fine Arts Institute-ICHCAP Joint Cooperation Project damaged ICH-related data, available in the archive of the Institute and related to the fifties of the XX century, was restored, digitized and published in the form of 8 CDs and 2 DVDs. The aim of the project was improving public accessibility of ICH-related data.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials related to digitalization; translated all materials into English.',
                     'thumbnail'     : ['portfolio/images/small/6a.jpg'],
                     'large'         : ['portfolio/images/large/6a.jpg'],
                     'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
                     'button_list'   :
                     [
-						{ 'title':'Demo', 'url' : 'http://www.ichcap.org/eng/ek/sub18/index.php', 'new_window' : true },
-						{ 'title':'Download', 'url':'https://drive.google.com/uc?authuser=0&id=13eiGjfYsfJQRzUyNY6vRN_r7KRQVzaPp&export=download', 'new_window' : true}
-                    ],
+						{ 'title':'Demo', 'url' : 'http://www.ichcap.org/eng/ek/sub18/index.php', 'new_window' : true }
+			        ],
                     'tags'          : ['Graphics']
                 },
 				{
                     'title'         : 'Photo Album of the International Photo Contest, 2017',
-                    'description'   : '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada. The album has photos of all 7 winners of the contest as well as 13 photos – which passed to the last stage of the contest. <br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all CDs/DVDs, developing an autorun program with interactive gallery; translating all materials.',
+                    'description'   : '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during the Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing the album.',
                     'thumbnail'     : ['portfolio/images/small/9a.jpg'],
                     'large'         : ['portfolio/images/large/9a.jpg'],
                     'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
                     'button_list'   :
                     [
-						{ 'title':'Demo', 'url' : 'https://drive.google.com/file/d/1y7Pya0Lmu1kwgnLXxyBwxyheE7I8ozX4/view', 'new_window' : true },
-						{ 'title':'Download', 'url' : 'https://drive.google.com/uc?authuser=0&id=1y7Pya0Lmu1kwgnLXxyBwxyheE7I8ozX4&export=download', 'new_window' : true }
-					],
+                        { 'title':'Demo', 'url' : 'https://drive.google.com/file/d/1y7Pya0Lmu1kwgnLXxyBwxyheE7I8ozX4/view', 'new_window' : true }
+                    ],
                     'tags'          : ['Graphics']
                 },
 				{
                     'title'         : 'Archaeology of Tashkent Oasis book, 2009',
-                    'description'   : '<strong>Description</strong>: The purpose of this book is to acquaint the readers with major results of archaeological research, key sites of the Tashkent Oasis, an original historical-cultural region of Uzbekistan and to show its role and place in the development of world civilization. The book was published on the occasion of 2200th anniversary of Tashkent. <br/><strong>Role:</strong> I was main designer of the book.',
+                    'description'   : '<strong>Description</strong>: The purpose of this book is to acquaint the readers with major results of archaeological research, key sites of the Tashkent Oasis, an original historical-cultural region of Uzbekistan and to show its role and place in the development of world civilization. The book was published on the occasion of 2200th anniversary of Tashkent. <br/><strong>Role:</strong> I was main designer of the book and translator.',
                     'thumbnail'     : ['portfolio/images/small/14a.jpg'],
                     'large'         : ['portfolio/images/large/14a.jpg'],
                     'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
                     'button_list'   :
                     [
-						{ 'title':'Demo', 'url' : 'https://drive.google.com/file/d/1oQgCi5CufmVdZwVMI4wdmgylFMW0cHXX/view', 'new_window' : true },
-						{ 'title':'Download', 'url' : 'https://drive.google.com/uc?authuser=0&id=1oQgCi5CufmVdZwVMI4wdmgylFMW0cHXX&export=download', 'new_window' : true }
-					],
+                        { 'title':'Demo', 'url' : 'https://drive.google.com/file/d/1oQgCi5CufmVdZwVMI4wdmgylFMW0cHXX/view', 'new_window' : true }
+                    ],
                     'tags'          : ['Graphics']
                 },
 				{
-                    'title'         : 'UNDP Project Map, 2020',
-                    'description'   : '<strong>Description</strong>: Present infographic was developed for UNDP Project dealing with HCFC phase out in Uzbekistan. It demonstrates project components, goals, tasks, project partners.<br/><strong>Role:</strong> Designer and editor.',
-                    'thumbnail'     : ['portfolio/images/small/20a.jpg'],
-                    'large'         : ['portfolio/images/large/20a.jpg'],
-                    'img_title'     : ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
-                    'button_list'   :
-                    [
-						{ 'title':'Demo', 'url' : 'https://drive.google.com/open?id=1RKh8mUN4KQnNM2FRO3FdE-MEOjd8maCw', 'new_window' : true }
-					],
-                    'tags'          : ['Graphics']
-                },
-					{
                     'title'         : 'Identity Theft: A Dialogue Based Infographic, 2020',
-                    'description'   : '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> Designer, developer, programmer.',
+                    'description'   : '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> I was designer and developer.',
                     'thumbnail'     : ['portfolio/images/small/21a.jpg'],
                     'large'         : ['portfolio/images/large/21a.jpg'],
                     'img_title'     : ['Screenshot 1'],
@@ -197,31 +180,6 @@
                     'tags'          : ['Others']
                 },
 				{
-                    'title'         : '“Solar Panels” Video Project, 2011',
-                    'description'   : '<strong>Description</strong>: The video project developed within the framework of Strategic Management and Public Administration course at the Willy Brand School of Public Policy, Erfurt University. The project aimed  to demonstrate how global challenges could be solved locally. This particular video explains with the help of animation, sound and subtitles why it is beneficial to install solar panels to the rooftop of the main building of the School. The project was found the best one in 2011. <br/><strong>Role:</strong> I was part of the team consisting of 3 students. My role was production of the video, including animation, sound and subtitles.',
-                    'thumbnail'     : ['portfolio/images/small/2a.jpg'],
-                    'large'         : ['portfolio/images/large/2a.jpg'],
-                    'img_title'     : ['Video project main screenshot', 'Video project screenshot 2', 'Video project screenshot 3', 'Video project screenshot 4', 'Video project screenshot 5', 'Video project screenshot 6', 'Video project screenshot 7'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'https://drive.google.com/file/d/1ZY6Ubmy2HGOE_wlhNS2eYzECfSAdLhuY/view', 'new_window' : true },
-                        { 'title':'Download', 'url':'https://drive.google.com/uc?authuser=0&id=1ZY6Ubmy2HGOE_wlhNS2eYzECfSAdLhuY&export=download', 'new_window' : true}
-                    ],
-                    'tags'          : ['Others']
-                },
-				{
-                    'title'         : '“Database” for Information Desks within EU-Women’s Committee Project, 2014',
-                    'description'   : '<strong>Description</strong>: Main aim of the Project was fostering positive economic impact and livelihood at community level and capacity-building of local NGOs in 5 selected mahallas (local communities) of Uzbekistan. Within the framework of the project a request was made to develop a database based on MS Access, which could be used by the Information Desks in Chirchik city, Qibray and Sirdarya districts of Uzbekistan. The database allows to enter answers of the respondents, and generate useful statistical data. It also has a searching functionality. <br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of developing a database based on Microsoft Access.',
-                    'thumbnail'     : ['portfolio/images/small/7a.jpg'],
-                    'large'         : ['portfolio/images/large/7a.jpg'],
-                    'img_title'     : ['Main page of the database', 'Data entry page', 'Database page'],
-                    'button_list'   :
-                    [
-                        { 'title':'Download', 'url':'https://drive.google.com/uc?authuser=0&id=1uO7O7cF0GMDYbNMi8N49DKQuSjs-CjBq&export=download', 'new_window' : true}
-                    ],
-                    'tags'          : ['Others']
-                },
-				{
                     'title'         : 'Mobile Educational Game Application “Time Machine”, 2018',
                     'description'   : '<strong>Description</strong>: Mobile educational game application was created to raise awareness of the users of mobile applications on ozone layer protection issues. The action in the game takes place in distant 2150. By this time mankind completely depleted the ozone layer of the earth due to uncontrolled emissions of ozone-depleting substances into the atmosphere. This resulted in gradual disappearance of all life on Earth. Players of the game will be playing for the main character, explore different locations and learn about the ozone layer. The game is built in such a way that it will be necessary to increase knowledge, and become familiar with information materials available on Internet on ozone topic. The game consists of the main game as well as 6 mini-games. It is the result of joint undertaking of the State Committee for Ecology and Environmental Protection, UNDP in Uzbekistan, HCFC Phase Out Project of UNDP in Uzbekistan, UNDP Istanbul Regional Hub, OzonAction Programme of UN Environment and Ozone Secretariat of UN Environment. <br/><strong>Role:</strong> I am the author of the game. I also helped the game developer in creating 6 two-dimensional mini-games and developed the official website of the game.',
                     'thumbnail'     : ['portfolio/images/small/11a.jpg'],
@@ -229,8 +187,8 @@
                     'img_title'     : ['Home page of the game', 'Mini games section', 'Game intro video'],
                     'button_list'   :
                     [
-                        { 'title':'Main game demo', 'url':'https://drive.google.com/uc?authuser=0&id=1aHFXP5mCk9bfjz5wNAMBIi3ya5iH8HFa&export=download', 'new_window' : true},
-						{ 'title':'Mini game demo', 'url':'http://ozonegame.org/TMQuiz.apk', 'new_window' : true}
+                        { 'title':'Demo 1', 'url':'https://drive.google.com/uc?authuser=0&id=1aHFXP5mCk9bfjz5wNAMBIi3ya5iH8HFa&export=download', 'new_window' : true},
+						{ 'title':'Demo 2', 'url':'http://ozonegame.org/TMQuiz.apk', 'new_window' : true}
                     ],
                     'tags'          : ['Websites', 'Others']
                 },
@@ -242,23 +200,11 @@
                     'img_title'     : ['Home page of the game', 'Mini games section', 'Game intro video'],
                     'button_list'   :
                     [
-                        { 'title':'Link', 'url':'https://scratch.mit.edu/projects/337922529/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Others']
-                },
-				{
-                    'title'         : 'Interactive pdf article, 2017',
-                    'description'   : '<strong>Description</strong>: Interactive pdf article was created as a part of public relations and outreach efforts within the framework of UNDP HCFC project. <br/><strong>Role:</strong> I am the author of the interactive article',
-                    'thumbnail'     : ['portfolio/images/small/13a.jpg'],
-                    'large'         : ['portfolio/images/large/13a.jpg'],
-                    'img_title'     : ['Home page of the game', 'Mini games section'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url':'https://drive.google.com/file/d/11__3iXjj5lApD_Yj8NgQYRBaCDrIitgx/view', 'new_window' : true},
-						{ 'title':'Download', 'url':'https://drive.google.com/uc?authuser=0&id=11__3iXjj5lApD_Yj8NgQYRBaCDrIitgx&export=download', 'new_window' : true}
+                        { 'title':'Demo', 'url':'https://scratch.mit.edu/projects/337922529/', 'new_window' : true}
                     ],
                     'tags'          : ['Others']
                 }
+				
                 
 
             ]

@@ -96,7 +96,7 @@ main {
 	left: 0;
 	width: 70px;
 	height: 80px;
-	background: #c7c6b4;
+	background: #eba034;
 	opacity: 1;
 }
 
@@ -111,10 +111,10 @@ main {
 }
 
 .intro__logo {
-	background: #a9a792;
+	background: #eba034;
     display: flex;
     align-items: center;
-    color: #000;
+	color: #000;
     pointer-events: auto;
     cursor: pointer;
     font-family: 'Megrim', cursive;

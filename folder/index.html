@@ -49,27 +49,29 @@
       // new speech recognition object
       var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
       var recognition = new SpeechRecognition();
+      recognition.continuous = true;
 
       // This runs when the speech recognition service starts
       recognition.onstart = function () {
         action.innerHTML = "<small>Please speak...</small>";
       };
 
-       
+      /* 
       recognition.onspeechend = function () {
         action.innerHTML = "";
-        
+        recognition.stop();
       }
-      
+      */
       // After recognition's end, restart it, so that to create a loop 
-      recognition.onend = function () {
+      /*recognition.onend = function () {
         recognition.start();
-      };
+      };*/
 
       // This runs when the speech recognition service returns result
       recognition.onresult = function (event) {
-        var transcript = event.results[0][0].transcript;
-        var confidence = event.results[0][0].confidence;
+        var transcript = event.results[event.results.length -1][0].transcript;
+        console.log('transscript: ', event.results[event.results.length -1][0].transcript);
+      
         // Put recognized speech text into output variable
         output.innerHTML = transcript;
 

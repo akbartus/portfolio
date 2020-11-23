@@ -18,7 +18,7 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
+    <p id="mybutton"><button id="intro" type="button" onclick="closeIntroPage();">Start</button>
       &nbsp; <span id="action"></span></p>
   </div>
 
@@ -37,6 +37,11 @@
 
   </a-scene>
   <script>
+    function closeIntroPage() {
+      
+      document.getElementById("intropage").style.display = "none";
+
+   
     // get output div reference
     var output = document.getElementById("word");
     var recognizedHello = 0;
@@ -119,13 +124,9 @@
         videobranch1.setAttribute('src', "video2.mp4");
       });
     }
-
+  }
     // Hide Intro Page Overlay
-    function closeIntroPage() {
-      
-      document.getElementById("intropage").style.display = "none";
-
-    }
+    
   </script>
 </body>
 

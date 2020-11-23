@@ -55,12 +55,12 @@
         action.innerHTML = "<small>Please speak...</small>";
       };
 
-      /* 
+       
       recognition.onspeechend = function () {
         action.innerHTML = "";
-        recognition.stop();
+        
       }
-      */
+      
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();

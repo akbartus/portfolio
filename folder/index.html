@@ -24,7 +24,7 @@
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" autoplay src=""></video>
+      <video id="vid" autoplay src="video1.mp4"></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
     <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
@@ -55,12 +55,12 @@
         action.innerHTML = "<small>Please speak...</small>";
       };
 
-      
+      /* 
       recognition.onspeechend = function () {
-      
+        action.innerHTML = "";
         recognition.stop();
       }
-      
+      */
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();
@@ -122,7 +122,7 @@
 
     // Hide Intro Page Overlay
     function closeIntroPage() {
-      document.getElementById("vid").setAttribute("src", "video1.mp4");
+      
       document.getElementById("intropage").style.display = "none";
 
     }

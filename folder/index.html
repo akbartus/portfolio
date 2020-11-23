@@ -18,7 +18,7 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"><button id="intro" type="button" onclick="closeIntroPage()">Start</button>
+    <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
       &nbsp; <span id="action"></span></p>
   </div>
 
@@ -49,7 +49,7 @@
       // new speech recognition object
       var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
       var recognition = new SpeechRecognition();
-
+      recognition.continuous = true;
       // This runs when the speech recognition service starts
       recognition.onstart = function () {
         action.innerHTML = "<small>Please speak...</small>";
@@ -60,16 +60,16 @@
         action.innerHTML = "";
         recognition.stop();
       }
-      */
+      
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();
       };
-
+*/
       // This runs when the speech recognition service returns result
       recognition.onresult = function (event) {
-        var transcript = event.results[0][0].transcript;
-        var confidence = event.results[0][0].confidence;
+        var transcript = event.results[event.results.length -1][0].transcript;
+        
         // Put recognized speech text into output variable
         output.innerHTML = transcript;
 
@@ -124,7 +124,6 @@
     function closeIntroPage() {
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("intropage").style.display = "none";
-      runSpeechRecognition();
 
     }
   </script>

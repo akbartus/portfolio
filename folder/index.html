@@ -49,7 +49,6 @@
       // new speech recognition object
       var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
       var recognition = new SpeechRecognition();
-      recognition.continuous=true;
 
       // This runs when the speech recognition service starts
       recognition.onstart = function () {
@@ -63,7 +62,11 @@
       }
       */
       // After recognition's end, restart it, so that to create a loop 
-      
+      recognition.onend = function () {
+        setTimeout(() => {
+      recognition.start();
+    }, 100);
+      };
 
       // This runs when the speech recognition service returns result
       recognition.onresult = function (event) {

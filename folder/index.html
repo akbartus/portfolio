@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Voice Controlled Interactive 360 Video</title>
-  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <script src="aframe-htmlembed-component.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -21,16 +21,19 @@
     <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
       &nbsp; <span id="action"></span></p>
   </div>
-  <div class="speechToText" style="position:fixed; z-index:99;">
-    <div id="word"></div>
-  </div>
+
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" autoplay src=""></video>
+     
     </a-assets>
     <a-camera id="camera"></a-camera>
-   
-    <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
+    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
+
+      <div class="speechToText">
+        <div id="word"></div>
+      </div>
+    </a-entity>
+    <a-videosphere id="vid" src="video1.mp4" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
   <script>

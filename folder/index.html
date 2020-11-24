@@ -18,8 +18,8 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"><button id="intro" type="button">Speech to Text</button>&nbsp; <span id="action"></span></p>
-    <button id="intro2" type="button">Start</button>
+    <p id="mybutton"><button id="intro" type="button">Start</button>
+      &nbsp; <span id="action"></span></p>
   </div>
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
@@ -37,15 +37,16 @@
 
   </a-scene>
   <script>
-    document.getElementById("intro2").addEventListener("click", closeIntroPage);
+
+document.getElementById("intro").addEventListener("click", closeIntroPage);
     
     function closeIntroPage() {
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("vid").play();
       document.getElementById("intropage").style.display = "none";
+      runSpeechRecognition();
 
     }
-    document.getElementById("intro").addEventListener("click", runSpeechRecognition);
     // get output div reference
     var output = document.getElementById("word");
     var recognizedHello = 0;
@@ -129,7 +130,8 @@
       });
     }
 
- 
+    // Hide Intro Page Overlay
+     
     
   </script>
 </body>

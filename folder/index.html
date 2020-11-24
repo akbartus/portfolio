@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Voice Controlled Interactive 360 Video</title>
-  <script src="aframe.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/web2vr@1.0.0/dist/web2vr.min.js"></script>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="aframe-htmlembed-component.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div id="intropage">
-    <!-- Welcome sentence -->
     <div id="welcome">
       <p>Welcome to sound controlled interactive 360 video experience! <br />
         Please click on "Start" to activate speech recognition.</p>
+
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
+    <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage()">Start</button>
       &nbsp; <span id="action"></span></p>
   </div>
-  <div id="htmlembed" class="speechToText">
-    <div id="word"></div>
-  </div>
-  <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
+
+  <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: false" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
       <video id="vid" autoplay src=""></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
-    
-    <a-sky src="#vid" rotation="0 0 0"></a-sky>
+    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
+
+      <div class="speechToText">
+        <div id="word"></div>
+      </div>
+    </a-entity>
+    <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
   <script>
-    const web2vr = new Web2VR("#htmlembed", { scale: 1000 });
-        web2vr.start();
-    
-    // get output div reference
-    var output = document.getElementById("word");
-    var recognizedHello = 0;
-    var recognizedAkbar = 0;
-    var recognizedBrother = 0;
-    // get action element reference
-    var action = document.getElementById("action");
     /* Speech to Text Script */
     function runSpeechRecognition() {
+      // get output div reference
+      var output = document.getElementById("word");
+      // get action element reference
+      var action = document.getElementById("action");
       // new speech recognition object
-      window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
+      var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
       var recognition = new SpeechRecognition();
 
       // This runs when the speech recognition service starts
@@ -77,58 +75,37 @@
         // If phrase is recognized, go to branch 1, "Hello"
         if (output.innerHTML.indexOf("hello") !== -1) {
           // change background color of the recognized text to show that it was successful
-          recognizedHello++;
-          if (recognizedHello == 1) correctWord();
-        }
-        if (output.innerHTML.toLowerCase().indexOf("akbar") !== -1) {
-          // change background color of the recognized text to show that it was successful
-          recognizedAkbar++;
-          if (recognizedAkbar == 1) correctWord();
-        }
-        if (output.innerHTML.indexOf("brother") !== -1) {
-          // change background color of the recognized text to show that it was successful
-          recognizedBrother++;
-          if (recognizedBrother == 1) correctWord();
-        }
+          document.getElementById("word").style.background = "#037b1a";
+          // hide after 3 seconds the text and clean the background of recognition text
+          setTimeout(function () {
+            output.innerHTML = "";
+            document.getElementById("word").style.background = "#000000";
+          }, 3000);
+          // wait until the video ends and load the given one.
+          let videobranch1 = document.getElementById('vid');
+          videobranch1.addEventListener('ended', function (evt) {
+            console.log("this is end of the video")
+            videobranch1.setAttribute('src', "video2.mp4");
+
+            
+
+
+
+          });
+
+        };
 
       }
       // start recognition
 
       recognition.start();
     }
-
-    function correctWord() {
-      output.style.background = "#037b1a";
-
-      // hide after 3 seconds the text and clean the background of recognition text
-      setTimeout(function () {
-        output.innerHTML = "";
-        output.style.background = "#000000";
-      }, 3000);
-
-      if (recognizedAkbar > 0 && recognizedBrother > 0 && recognizedHello > 0)
-        recognizedVideo();
-    }
-
-    function recognizedVideo() {
-
-      // wait until the video ends and load the given one.
-      let videobranch1 = document.getElementById('vid');
-      videobranch1.addEventListener('ended', function (evt) {
-        console.log("this is end of the video")
-        videobranch1.setAttribute('src', "video2.mp4");
-      });
-    }
-
     // Hide Intro Page Overlay
     function closeIntroPage() {
-      
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("intropage").style.display = "none";
-
+      
     }
-
-    
   </script>
 </body>
 

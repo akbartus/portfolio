@@ -18,8 +18,7 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"></p><button id="intro" type="button" onclick="closeIntroPage();">Start</button>
-    
+    <button id="intro1" type="button" onclick="closeIntroPage();">Start</button>
   </div>
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
@@ -28,10 +27,9 @@
     </a-assets>
     <a-camera id="camera"></a-camera>
     <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
-      <button id="intro1" type="button" onclick="runSpeechRecognition()">Start</button>
+      <button id="intro" type="button" onclick="runSpeechRecognition()">Start</button>
         &nbsp; <span id="action"></span>
       <div class="speechToText">
-        
         <div id="word"></div>
       </div>
     </a-entity>
@@ -54,15 +52,15 @@
 
       // This runs when the speech recognition service starts
       recognition.onstart = function () {
-        action.innerHTML = "<small>...</small>";
+        action.innerHTML = "<small>Please speak...</small>";
       };
 
-     /*
+      /* 
       recognition.onspeechend = function () {
         action.innerHTML = "";
         recognition.stop();
       }
-    */        
+      */
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();

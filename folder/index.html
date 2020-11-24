@@ -55,17 +55,17 @@
         action.innerHTML = "<small>Please speak...</small>";
       };
 
-      /* 
+      
       recognition.onspeechend = function () {
         action.innerHTML = "";
         recognition.stop();
       }
-      */
+      /* 
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();
       };
-
+*/
       // This runs when the speech recognition service returns result
       recognition.onresult = function (event) {
         var transcript = event.results[0][0].transcript;

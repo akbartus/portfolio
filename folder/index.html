@@ -34,7 +34,7 @@
         <div id="word"></div>
       </div>
     </a-entity>
-    <a-entity id="aud" sound="src: url(sound1.mp3); volume: 3; positional: false; autoplay: false; poolSize: 1"></a-entity>
+    <a-entity id="aud" sound="src: url(audio1.mp3); volume: 3; positional: false; autoplay: true; poolSize: 1"></a-entity>
     <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
@@ -46,7 +46,7 @@ document.getElementById("intro").addEventListener("click", closeIntroPage);
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("vid").play();
       
-      document.getElementById("aud").play();
+
       document.getElementById("intropage").style.display = "none";
       runSpeechRecognition();
 

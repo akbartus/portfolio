@@ -42,10 +42,11 @@
 
 document.getElementById("intro").addEventListener("click", closeIntroPage);
       function closeIntroPage() {
-      document.getElementById("aud").setAttribute("src", "audio1.mp3");
-      document.getElementById("aud").play();
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("vid").play();
+        document.getElementById("aud").setAttribute("src", "audio1.mp3");
+      document.getElementById("aud").play();
+      
       document.getElementById("intropage").style.display = "none";
       runSpeechRecognition();
 

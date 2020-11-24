@@ -7,6 +7,9 @@
   <title>Voice Controlled Interactive 360 Video</title>
   <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <script src="aframe-htmlembed-component.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js">
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,126 +21,95 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <p id="mybutton"><button id="intro" type="button">Start</button>
-      &nbsp; <span id="action"></span></p>
+    <button id="trigger" type="button" onclick="init(); closeOverlay();">Start</button>
+    <div id="label-container"></div>
   </div>
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" crossorigin="anonymous" src=""></video>
+      <video id="vid" src=""></video>
     </a-assets>
-    <a-camera id="camera"></a-camera>
-    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
 
+    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
       <div class="speechToText">
         <div id="word"></div>
       </div>
     </a-entity>
-    <a-entity id="audi" sound="" 
-		rotation="360 90 0" scale="0.5 0.5 0.5">
-	</a-entity>
+
     <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
   <script>
+function closeOverlay (){
+  document.getElementById('intropage').style.display = "none";
+  document.getElementById('vid').setAttribute("src", "video1.mp4");
+  document.getElementById('vid').play();
 
-document.getElementById("intro").addEventListener("click", closeIntroPage);
-    
-    function closeIntroPage() {
+}
+// ----------------------------------------------------------- //
 
-      document.getElementById("vid").setAttribute("src", "video1.mp4");
-      document.getElementById("audi").setAttribute("sound", "src: url(audio1.mp3); volume: 3; positional: false; autoplay: true; poolSize: 1");
+   // the link to your model provided by Teachable Machine export panel
+   const URL = "https://teachablemachine.withgoogle.com/models/a3Kw2-zA7/";
 
-      document.getElementById("intropage").style.display = "none";
-      runSpeechRecognition();
+async function createModel() {
+  const checkpointURL = URL + "model.json"; // model topology
+  const metadataURL = URL + "metadata.json"; // model metadata
 
-    }
-    window.addEventListener('click', function () {
-  var v = document.querySelector('#vid');
-  v.play();
-});
-    // get output div reference
-    var output = document.getElementById("word");
-    var recognizedHello = 0;
-    var recognizedAkbar = 0;
-    var recognizedBrother = 0;
-    // get action element reference
-    var action = document.getElementById("action");
-    /* Speech to Text Script */
-    function runSpeechRecognition() {
-      // new speech recognition object
-      var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
-      var recognition = new SpeechRecognition();
+  const recognizer = speechCommands.create(
+    "BROWSER_FFT", // fourier transform type, not useful to change
+    undefined, // speech commands vocabulary feature, not useful for your models
+    checkpointURL,
+    metadataURL);
 
-      // This runs when the speech recognition service starts
-      recognition.onstart = function () {
-        action.innerHTML = "<small>Please speak...</small>";
+  // check that model and metadata are loaded via HTTPS requests.
+  await recognizer.ensureModelLoaded();
+
+  return recognizer;
+}
+
+async function init() {
+  document.getElementById("trigger").style.display = "none";
+  const labelContainer = document.getElementById("label-container");
+  const recognizer = await createModel();
+  const classLabels = recognizer.wordLabels(); // get class labels
+
+
+  for (let i = 0; i < classLabels.length; i++) {
+    labelContainer.appendChild(document.createElement("div"));
+  }
+
+  // listen() takes two arguments:
+  // 1. A callback function that is invoked anytime a word is recognized.
+  // 2. A configuration object with adjustable fields
+  recognizer.listen(result => {
+    const scores = result.scores; // probability of prediction for each class
+    // render the probability scores per class
+    for (let i = 1; i < classLabels.length; i++) {
+      const classPrediction = classLabels[i] + ": " + result.scores[i].toFixed(2);
+      labelContainer.childNodes[i].innerHTML = classPrediction;
+
+      // New Line, demonstrates that the text is here.
+      if (result.scores[i].toFixed(2) >= "0.8") {
+        elVal = document.getElementById('word').value;
+        newVal = classLabels[i];
+        
+        if (elVal != newVal) {
+          document.getElementById('word').innerHTML = newVal;
+          
+        }
       };
-
-      /* 
-      recognition.onspeechend = function () {
-        action.innerHTML = "";
-        recognition.stop();
-      }
-      */
-      // After recognition's end, restart it, so that to create a loop 
-      recognition.onend = function () {
-        recognition.start();
-      };
-
-      // This runs when the speech recognition service returns result
-      recognition.onresult = function (event) {
-        var transcript = event.results[0][0].transcript;
-        var confidence = event.results[0][0].confidence;
-        // Put recognized speech text into output variable
-        output.innerHTML = transcript;
-
-
-        // If phrase is recognized, go to branch 1, "Hello"
-        if (output.innerHTML.indexOf("hello") !== -1) {
-          // change background color of the recognized text to show that it was successful
-          recognizedHello++;
-          if (recognizedHello == 1) correctWord();
-        }
-        if (output.innerHTML.toLowerCase().indexOf("akbar") !== -1) {
-          // change background color of the recognized text to show that it was successful
-          recognizedAkbar++;
-          if (recognizedAkbar == 1) correctWord();
-        }
-        if (output.innerHTML.indexOf("brother") !== -1) {
-          // change background color of the recognized text to show that it was successful
-          recognizedBrother++;
-          if (recognizedBrother == 1) correctWord();
-        }
-
-      }
-      // start recognition
-
-      recognition.start();
     }
+  }, {
+    includeSpectrogram: true, // in case listen should return result.spectrogram
+    probabilityThreshold: 0.75,
+    invokeCallbackOnNoiseAndUnknown: true,
+    overlapFactor: 0.50 // probably want between 0.5 and 0.75. More info in README
+  });
 
-    function correctWord() {
-      output.style.background = "#037b1a";
-
-      // hide after 3 seconds the text and clean the background of recognition text
-      setTimeout(function () {
-        output.innerHTML = "";
-        output.style.background = "#000000";
-      }, 3000);
-
-      if (recognizedAkbar > 0 && recognizedBrother > 0 && recognizedHello > 0)
-        recognizedVideo();
-    }
-
-    function recognizedVideo() {
-
-      // wait until the video ends and load the given one.
-      let videobranch1 = document.getElementById('vid');
-      videobranch1.addEventListener('ended', function (evt) {
-        console.log("this is end of the video")
-        videobranch1.setAttribute('src', "video2.mp4");
-      });
-    }
+  // Stop the recognition in 5 seconds.
+  // setTimeout(() => recognizer.stopListening(), 5000);
+}
+  
 
     
   </script>

@@ -24,7 +24,7 @@
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" src=""></video>
+      <video id="vid" muted src=""></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
     <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
@@ -33,6 +33,7 @@
         <div id="word"></div>
       </div>
     </a-entity>
+    <a-entity id="mySound" sound="src: url(bri_murphy_interview.mp3); volume: 3; positional: false; autoplay: true;"></a-entity>
     <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
@@ -41,8 +42,10 @@
 document.getElementById("intro").addEventListener("click", closeIntroPage);
     
     function closeIntroPage() {
+      document.getElementById("mySound").play();
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("vid").play();
+      
       document.getElementById("intropage").style.display = "none";
       runSpeechRecognition();
 

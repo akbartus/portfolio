@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Voice Controlled Interactive 360 Video</title>
-  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
   <script src="aframe-htmlembed-component.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,21 +18,18 @@
         Please click on "Start" to activate speech recognition.</p>
     </div>
     <!-- On Button cLick activate web camera with ML -->
-    <button id="intro1" type="button" onclick="closeIntroPage();">Start</button>
+    <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
+      &nbsp; <span id="action"></span></p>
   </div>
-
+  <div class="speechToText" style="position:fixed; z-index:99;">
+    <div id="word"></div>
+  </div>
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" muted autoplay src=""></video>
+      <video id="vid" autoplay src=""></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
-    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
-      <button id="intro" type="button" onclick="runSpeechRecognition()">Start</button>
-        &nbsp; <span id="action"></span>
-      <div class="speechToText">
-        <div id="word"></div>
-      </div>
-    </a-entity>
+   
     <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
@@ -55,17 +52,17 @@
         action.innerHTML = "<small>Please speak...</small>";
       };
 
-      
+      /* 
       recognition.onspeechend = function () {
         action.innerHTML = "";
         recognition.stop();
       }
-      /* 
+      */
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
         recognition.start();
       };
-*/
+
       // This runs when the speech recognition service returns result
       recognition.onresult = function (event) {
         var transcript = event.results[0][0].transcript;
@@ -122,6 +119,7 @@
 
     // Hide Intro Page Overlay
     function closeIntroPage() {
+      
       document.getElementById("vid").setAttribute("src", "video1.mp4");
       document.getElementById("intropage").style.display = "none";
 

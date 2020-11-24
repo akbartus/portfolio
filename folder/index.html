@@ -43,15 +43,15 @@ document.getElementById("intro").addEventListener("click", closeIntroPage);
     function closeIntroPage() {
 
       document.getElementById("vid").setAttribute("src", "video1.mp4");
+      
+      document.getElementById("vid").play();
+
 
       document.getElementById("intropage").style.display = "none";
       runSpeechRecognition();
 
     }
-    window.addEventListener('click', function () {
-  var v = document.querySelector('#vid');
-  v.play();
-});
+ 
     // get output div reference
     var output = document.getElementById("word");
     var recognizedHello = 0;
@@ -78,7 +78,9 @@ document.getElementById("intro").addEventListener("click", closeIntroPage);
       */
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
+        document.getElementById("vid").play();
         recognition.start();
+
       };
 
       // This runs when the speech recognition service returns result

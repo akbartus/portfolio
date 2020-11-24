@@ -8,24 +8,6 @@
   <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <script src="aframe-htmlembed-component.js"></script>
   <link rel="stylesheet" href="style.css">
-  <script>
-    AFRAME.registerComponent('play-on-click', {
-  init: function () {
-    this.onClick = this.onClick.bind(this);
-  },
-  play: function () {
-    window.addEventListener('click', this.onClick);
-  },
-  pause: function () {
-    window.removeEventListener('click', this.onClick);
-  },
-  onClick: function (evt) {
-    var video = this.el.components.material.material.map.image;
-    if (!video) { return; }
-    video.play();
-  }
-});
-    </script>
 </head>
 
 <body>
@@ -42,7 +24,8 @@
 
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
-      <video id="vid" autoplay crossorigin="anonymous" playsinline webkit-playsinline src=""></video>
+      <video id="vid" src=""></video>
+      <audio id="aud" src=""></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
     <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
@@ -51,25 +34,23 @@
         <div id="word"></div>
       </div>
     </a-entity>
+    <a-sound src="#aud" rotation="0 0 0"></a-sound>
     <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
 
   </a-scene>
   <script>
 
 document.getElementById("intro").addEventListener("click", closeIntroPage);
-    
-    function closeIntroPage() {
-
+      function closeIntroPage() {
+      document.getElementById("aud").setAttribute("src", "audio1.mp3");
+      document.getElementById("aud").play();
       document.getElementById("vid").setAttribute("src", "video1.mp4");
-      
-      
-
-
+      document.getElementById("vid").play();
       document.getElementById("intropage").style.display = "none";
       runSpeechRecognition();
 
     }
- 
+
     // get output div reference
     var output = document.getElementById("word");
     var recognizedHello = 0;
@@ -96,9 +77,7 @@ document.getElementById("intro").addEventListener("click", closeIntroPage);
       */
       // After recognition's end, restart it, so that to create a loop 
       recognition.onend = function () {
-        document.getElementById("vid").play();
         recognition.start();
-
       };
 
       // This runs when the speech recognition service returns result

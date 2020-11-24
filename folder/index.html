@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Voice Controlled Interactive 360 Video</title>
   <script src="aframe.min.js"></script>
-  <script src="aframe-htmlembed-component.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web2vr@1.0.0/dist/web2vr.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,22 +21,22 @@
     <p id="mybutton"><button id="intro" type="button" onclick="runSpeechRecognition(); closeIntroPage();">Start</button>
       &nbsp; <span id="action"></span></p>
   </div>
-
+  <div id="htmlembed" class="speechToText">
+    <div id="word"></div>
+  </div>
   <a-scene cursor="rayOrigin: mouse" vr-mode-ui="enabled: true" loading-screen="dotsColor: white; backgroundColor: black">
     <a-assets>
       <video id="vid" autoplay src=""></video>
     </a-assets>
     <a-camera id="camera"></a-camera>
-    <a-entity id="test" htmlembed position="0 1 -1" rotation="0 0 0" scale="0.8 0.8 0.8">
-
-      <div class="speechToText">
-        <div id="word"></div>
-      </div>
-    </a-entity>
-    <a-videosphere src="#vid" rotation="0 0 0"></a-videosphere>
+    
+    <a-sky src="#vid" rotation="0 0 0"></a-sky>
 
   </a-scene>
   <script>
+    const web2vr = new Web2VR("#htmlembed", { scale: 1000 });
+        web2vr.start();
+    
     // get output div reference
     var output = document.getElementById("word");
     var recognizedHello = 0;
@@ -47,7 +47,7 @@
     /* Speech to Text Script */
     function runSpeechRecognition() {
       // new speech recognition object
-      var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+      window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
       var recognition = new SpeechRecognition();
 
       // This runs when the speech recognition service starts
@@ -127,6 +127,8 @@
       document.getElementById("intropage").style.display = "none";
 
     }
+
+    
   </script>
 </body>
 

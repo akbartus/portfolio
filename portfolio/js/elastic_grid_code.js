@@ -236,7 +236,7 @@
                     'title': 'E-Learning System for HCFC 2 Project, UNDP in Uzbekistan, 2020',
                     'description': '<strong>Description</strong>: E-learning system will be used by the refrigeration and air conditioneer professionals in Uzbekistan to build their capacities and for training purposes. The system is available in mobile and desktop versions, and incorporates numerous features, including e-learning materials in SCORM format.<br/><strong>Role:</strong> Developer and designer.',
                     'thumbnail': ['portfolio/images/small/30a.jpg'],
-                    'large': ['portfolio/images/large/39a.jpg'],
+                    'large': ['portfolio/images/large/30a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
                             'title': 'Demo',

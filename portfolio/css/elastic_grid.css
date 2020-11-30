@@ -94,7 +94,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #fff;
+	background: rgb(255 255 255 / 0.7);
 	color: #000;
 	top: auto;
 	left: 0;
@@ -264,7 +264,7 @@
 	/*margin: 20px 0px auto 0;*/
 	overflow: hidden;
 	/*width: 800px;*/
-	padding-left: 30%;
+	padding-left: 35%;
 	padding-right: 20%;
 }
 .wagwep-container ul#portfolio-filter {
@@ -273,14 +273,14 @@
 	list-style: none;
 	padding: 10px 0px;
 	width: 100%;
-	border-bottom: 3px solid #eba034;
+
 }
 .wagwep-container ul#portfolio-filter li {
 	/*border-right: 1px solid #dedede;*/
 	float: left;
-	line-height: 16px;
-	margin: 0px;
-	padding: 10px;
+	line-height: 26px;
+	margin: 2px 0px;
+	padding: 2px 5px;
 }
 .wagwep-container ul#portfolio-filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 .wagwep-container ul#portfolio-filter a {

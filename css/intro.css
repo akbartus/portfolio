@@ -291,7 +291,7 @@ main {
 		display: grid;
 		align-items: start;
 		grid-template-columns: repeat(4,25%);
-		grid-template-rows: 40% 60%;
+		grid-template-rows: 30% 70%;
 		z-index:999;
 	}
 	.intro__title {
@@ -365,18 +365,19 @@ main {
 	}
 
 @media screen and (max-width: 70em) {
-.intro {grid-template-rows: 30% 60%;}
-.intro__social {grid-area: 4 / 4 / 2 / 4;}
-.intro__enter {margin-top: 40px;}
+}
 
 }
 
 @media screen and (max-width: 60em) {
-.intro {grid-template-rows: 20% 60%;}
+.intro {}
+
 }
 
 @media screen and (max-width: 55em) {
-.intro {grid-template-rows: 5% 60%;}
+.intro {}
+.intro__title-wrap {
+	grid-area: 2 / 4 / 2 / 2;}
 body > div > div.intro__content.intro__content--forth.animatable > img {display:none;}
 .box__img--original {display:none !important;}
 .overlay__item .box__title {bottom: 0; left: 4rem; top: -4rem;}
@@ -387,4 +388,7 @@ h1 {margin:0 !important;}
 .intro__social {display:none;}
 .intro__title-wrap > h1 {padding:0px;}
 .intro__enter {margin-top:0px;}
+.og-grid li > a, .og-grid li > a img {
+	width: 300px;
+}
 }

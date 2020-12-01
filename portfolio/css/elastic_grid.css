@@ -117,6 +117,7 @@
 	bottom: 10px;
 	right: 10px;
 	cursor: pointer;
+	z-index:99999;
 	
 }
 
@@ -132,6 +133,7 @@
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
 	color: #000;
+	z-index:99999;
 }
 
 .og-close::after {
@@ -801,6 +803,10 @@ nav#porfolio-nav li:last-child a {
 	.elastislide-wrapper{
 		max-width: 300px;
 	}
+	.overlay__item {
+		
+		padding-top: 18%;
+	}
 }
 
 /*Smartphone*/
@@ -823,6 +829,14 @@ nav#porfolio-nav li:last-child a {
 	.og-details .infosep {
 		margin: 10px 0px;
 	}
+
+	.overlay__item {
+		
+		padding-top: 18%;
+	}
+	#og-grid > li.all.visual.og-expanded {height:600px !important;}
+	.og-expander {height:500px !important;}
+	.og-fullimg {display:none !important;}
 }
 
 @media (min-width: 1200px) {
@@ -849,6 +863,7 @@ nav#porfolio-nav li:last-child a {
 		height: 40%;
 		width: 100%;
 	}
+	
 	.og-details{
 		width: 100%;
 		margin-top: 5px;

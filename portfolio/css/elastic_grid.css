@@ -114,7 +114,7 @@
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	top: 10px;
+	bottom: 10px;
 	right: 10px;
 	cursor: pointer;
 	
@@ -127,10 +127,11 @@
 	width: 100%;
 	top: 50%;
 	height: 3px;
-	background: #888;
+	background: #000;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
+	color: #000;
 }
 
 .og-close::after {
@@ -141,7 +142,7 @@
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #000;
+	background: #eba034;
 }
 
 .og-fullimg,
@@ -473,13 +474,13 @@
 }
 .og-grid li a figure span {
 	display: block;
-	padding: 10px 0;
-	margin: 40px 20px 20px 20px;
-	text-transform: uppercase;
-	font-weight: normal;
-	color: rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding: 10px 0;
+    margin: 40px 20px 20px 20px;
+
+    font-weight: bold;
+    color: #eba034;
+    border-bottom: 1px dotted #eba034;
+    /* box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 	/*box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);*/
 }
 /***********

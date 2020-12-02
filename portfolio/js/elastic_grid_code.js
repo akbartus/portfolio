@@ -57,7 +57,7 @@
                         'url': 'https://gcf.climatechange.uz/',
                         'new_window': true
                     }],
-                    'tags': ['Visual']
+                    'tags': ['Visual', 'Web']
                 },
                 {
                     'title': 'Photo Album of the International Photo Contest, 2017',

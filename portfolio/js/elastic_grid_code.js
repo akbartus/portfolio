@@ -206,6 +206,25 @@
                         }],
                     'tags': ['AR/VR', 'Experiments']
                 },
+                       {
+                    'title': 'Experiments with Interactive PDF, 2017 and 2020',
+                    'description': '<strong>Description</strong>: It is well known that files with .pdf are widely used in preparing documents. However .pdf files also support a great number of features, which could be used in storytelling and making the content more interesting. With these interactivity experiments I sought to explore possibilities of .pdf files, in particular using interactive information delivery and 3d modeling.<br/><strong>Role:</strong> Author, creator.',
+                    'thumbnail': ['portfolio/images/small/32a.jpg'],
+                    'large': ['portfolio/images/large/32a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                            'title': 'Demo',
+                            'url': 'https://drive.google.com/file/d/11__3iXjj5lApD_Yj8NgQYRBaCDrIitgx/view?usp=sharing',
+                            'new_window': true
+                        },
+                        {
+                            'title': 'Demo',
+                            'url': 'https://drive.google.com/file/d/1uz5ugOQ-etvPgNfbCHgqcayM63b3KoFp/view?usp=sharing',
+                            'new_window': true
+                        }
+                    ],
+                    'tags': ['AR/VR', 'Experiments']
+                },
                 {
                     'title': 'Virtual Reality Portal with Speech Recognition, 2020',
                     'description': '<strong>Description</strong>: The project was aimed at exploring the portal feature (i.e. teleporting from one location to another) in virtual reality environment. It utilizes speech recognition feature available through Microsoft Mixed Reality Toolkit II, which adds additional layer of interactivity. The VR experience is supported by Samsung Odyssey HMDs. <br/><strong>Role:</strong> Author, developer.',

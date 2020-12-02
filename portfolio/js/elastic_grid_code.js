@@ -209,8 +209,8 @@
                        {
                     'title': 'Experiments with Interactive PDF, 2017 and 2020',
                     'description': '<strong>Description</strong>: It is well known that files with .pdf are widely used in preparing documents. However .pdf files also support a great number of features, which could be used in storytelling and making the content more interesting. With these interactivity experiments I sought to explore possibilities of .pdf files, in particular using interactive information delivery and 3d modeling.<br/><strong>Role:</strong> Author, creator.',
-                    'thumbnail': ['portfolio/images/small/32a.jpg'],
-                    'large': ['portfolio/images/large/32a.jpg'],
+                    'thumbnail': ['portfolio/images/small/33a.jpg'],
+                    'large': ['portfolio/images/large/33a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
                             'title': 'Demo',

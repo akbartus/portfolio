@@ -93,7 +93,7 @@
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
                         'title': 'Demo',
-                        'url': 'https://identity-theft-interactive-infographic.glitch.me/',
+                        'url': 'https://akbartus-vrmuseum.glitch.me/',
                         'new_window': true
                     }],
                     'tags': ['Visual', 'AR/VR']

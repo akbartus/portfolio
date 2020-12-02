@@ -61,7 +61,7 @@
                 },
                        {
                     'title': '“Ozone Information Portal”, 2019',
-                    'description': '<strong>Description</strong>: "Ozone Information Portal" was developed as part of the project of UNDP in Uzbekistan on phasing out ozone depleting substances. It also serves as a major information source on ozone protection related measures undertaken within Uzbekistan.<br/><strong>Role:</strong> Developer and designer.',
+                    'description': '<strong>Description</strong>: "Ozone Information Portal" was developed as part of the project of UNDP in Uzbekistan on phasing out ozone depleting substances. It also serves as a major information source on ozone protection related measures undertaken within Uzbekistan.<br/><strong>Role:</strong> Developer.',
                     'thumbnail': ['portfolio/images/small/32a.jpg'],
                     'large': ['portfolio/images/large/32a.jpg'],
                     'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],

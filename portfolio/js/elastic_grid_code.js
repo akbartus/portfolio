@@ -47,6 +47,19 @@
                     'tags': ['Visual']
                 },
                 {
+                    'title': '“GCF Readiness Programme in Uzbekistan” Project Website, 2019',
+                    'description': '<strong>Description</strong>: GCF Readiness Program in Uzbekistan was a project implemented by UNDP, UN Environment and World Resources Institute dealing with strengthening the national capacity to effectively and efficiently plan for, access, manage, deploy and monitor climate financing through the GCF. The website was developed as one of the outputs during my involvement with the project.<br/><strong>Role:</strong> Developer, designer and translator.',
+                    'thumbnail': ['portfolio/images/small/31a.jpg'],
+                    'large': ['portfolio/images/large/31a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://gcf.climatechange.uz/',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual']
+                },
+                {
                     'title': 'Photo Album of the International Photo Contest, 2017',
                     'description': '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during the Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing the album.',
                     'thumbnail': ['portfolio/images/small/9a.jpg'],

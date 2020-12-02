@@ -47,7 +47,7 @@
                     'tags': ['Visual']
                 },
                 {
-                    'title': '“GCF Readiness Programme in Uzbekistan” Project Website, 2019',
+                    'title': '“GCF Readiness Programme in Uzbekistan” Project Website, 2018',
                     'description': '<strong>Description</strong>: GCF Readiness Program in Uzbekistan was a project implemented by UNDP, UN Environment and World Resources Institute dealing with strengthening the national capacity to effectively and efficiently plan for, access, manage, deploy and monitor climate financing through the GCF. The website was developed as one of the outputs during my involvement with the project.<br/><strong>Role:</strong> Developer, designer and translator.',
                     'thumbnail': ['portfolio/images/small/31a.jpg'],
                     'large': ['portfolio/images/large/31a.jpg'],

@@ -839,6 +839,10 @@ nav#porfolio-nav li:last-child a {
 	.og-fullimg {display:none !important;}
 }
 
+@media only screen and (max-width : 300px) {
+	.og-fullimg {display:none !important;}
+}
+
 @media (min-width: 1200px) {
 	.og-expander h3 { font-size: 35px; }
 	.og-expander p { font-size: 13px; text-align:justify;}

@@ -223,7 +223,7 @@
                             'new_window': true
                         }
                     ],
-                    'tags': ['AR/VR', 'Experiments']
+                    'tags': ['Experiments']
                 },
                 {
                     'title': 'Virtual Reality Portal with Speech Recognition, 2020',

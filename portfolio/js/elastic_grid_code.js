@@ -59,6 +59,19 @@
                     }],
                     'tags': ['Visual', 'Web']
                 },
+                       {
+                    'title': '“Ozone Information Portal”, 2019',
+                    'description': '<strong>Description</strong>: "Ozone Information Portal" was developed as part of the project of UNDP in Uzbekistan on phasing out ozone depleting substances. It also serves as a major information source on ozone protection related measures undertaken within Uzbekistan.<br/><strong>Role:</strong> Developer and designer.',
+                    'thumbnail': ['portfolio/images/small/32a.jpg'],
+                    'large': ['portfolio/images/large/32a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'http://o3.uz/en/',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual', 'Web']
+                },
                 {
                     'title': 'Photo Album of the International Photo Contest, 2017',
                     'description': '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during the Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing the album.',

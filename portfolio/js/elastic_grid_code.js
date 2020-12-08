@@ -277,19 +277,7 @@
                         }],
                     'tags': ['Web', 'Experiments']
                 },
-                {
-                    'title': 'E-Learning System for HCFC 2 Project, UNDP in Uzbekistan, 2020',
-                    'description': '<strong>Description</strong>: E-learning system will be used by the refrigeration and air conditioneer professionals in Uzbekistan to build their capacities and for training purposes. The system is available in mobile and desktop versions, and incorporates numerous features, including e-learning materials in SCORM format.<br/><strong>Role:</strong> Developer and designer.',
-                    'thumbnail': ['portfolio/images/small/30a.jpg'],
-                    'large': ['portfolio/images/large/30a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://e-learning.o3.uz/',
-                            'new_window': true
-                        }],
-                    'tags': ['Web']
-                },
+               
                 {
                     'title': 'Web VR Chess, 2020',
                     'description': '<strong>Description</strong>: The project is Web VR/3d chess experiment, which utilizes A-frame (Web VR Framework) in combination with JavaScript. It demonstrates possibilities of A-Frame in creating virtual/3d experiences, including games.<br/><strong>Role:</strong> Author, developer and programmer.',

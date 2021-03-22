@@ -28,7 +28,7 @@
                     'img_title': ['All disks with demonstration of traditional pattern', 'Pattern on a disk', 'Pattern on a disk', 'Booklet cover design'],
                     'button_list': [{
                         'title': 'Demo',
-                        'url': 'http://www.ichcap.org/eng/ek/sub5/main.php',
+                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub5/main.php',
                         'new_window': true
                     }],
                     'tags': ['Visual']
@@ -41,7 +41,7 @@
                     'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
                     'button_list': [{
                         'title': 'Demo',
-                        'url': 'http://www.ichcap.org/eng/ek/sub18/index.php',
+                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub18/index.php',
                         'new_window': true
                     }],
                     'tags': ['Visual']
@@ -85,19 +85,7 @@
                     }],
                     'tags': ['Visual']
                 },
-                {
-                    'title': 'Archaeology of Tashkent Oasis book, 2009',
-                    'description': '<strong>Description</strong>: The purpose of this book is to acquaint the readers with major results of archaeological research, key sites of the Tashkent Oasis, an original historical-cultural region of Uzbekistan and to show its role and place in the development of world civilization. The book was published on the occasion of 2200th anniversary of Tashkent. <br/><strong>Role:</strong> I was main designer of the book and translator.',
-                    'thumbnail': ['portfolio/images/small/14a.jpg'],
-                    'large': ['portfolio/images/large/14a.jpg'],
-                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://drive.google.com/file/d/1oQgCi5CufmVdZwVMI4wdmgylFMW0cHXX/view',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual']
-                },
+                
                 {
                     'title': 'Identity Theft: A Dialogue Based Infographic, 2020',
                     'description': '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> Author and developer.',
@@ -150,17 +138,7 @@
                     }],
                     'tags': ['Visual', 'Web']
                 },
-                {
-                    'title': 'Virtual Reality Maze, 2020',
-                    'description': '<strong>Description</strong>: Virtual reality application for Microsoft Mixed Reality was created within the framework of VR Interactive class attended during Spring 2020. It demonstrates use of teleportation, object manipulation and other features.<br/><strong>Role:</strong> Author, developer and programmer.',
-                    'thumbnail': ['portfolio/images/small/17a.jpg'],
-                    'large': ['portfolio/images/large/17a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [
-
-                    ],
-                    'tags': ['AR/VR']
-                },
+               
                 {
                     'title': 'AR Experience and 3d Model for Ohio Today Magazine, 2020',
                     'description': '<strong>Description</strong>: For winter 2020 issue of Ohio Today magazine an augmented reality experience and 3d model was created to accompany the interview/article about 3d printing. 3d model of Thomas Jefferson was originally developed from real-life model using photogammetry technology and Blender. AR is available in print version of the magazine only.<br/><strong>Role:</strong> Author, developer and programmer.',
@@ -178,13 +156,9 @@
                     'title': 'AR Portal with 360 Video, 2019',
                     'description': '<strong>Description</strong>: AR portal featuring android application was developed within the framework of VR Production class at Ohio University. It demonstrates possibility of combining AR with 360 video in real time.<br/><strong>Role:</strong> Author, developer and programmer.',
                     'thumbnail': ['portfolio/images/small/16a.jpg'],
-                    'large': ['portfolio/images/large/16a.jpg'],
+                    'large': ['https://www.youtube.com/watch?v=Kg-IaD3oRYg'],
                     'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://www.youtube.com/watch?v=Kg-IaD3oRYg',
-                            'new_window': true
-                        },
+                    'button_list': [
                         {
                             'title': 'Download',
                             'url': 'https://drive.google.com/open?id=1mfV8WJqRa2ADruIpUD5-6u4ZCsUuMuHp',
@@ -278,20 +252,7 @@
                     'tags': ['Web', 'Experiments']
                 },
                
-                {
-                    'title': 'Web VR Chess, 2020',
-                    'description': '<strong>Description</strong>: The project is Web VR/3d chess experiment, which utilizes A-frame (Web VR Framework) in combination with JavaScript. It demonstrates possibilities of A-Frame in creating virtual/3d experiences, including games.<br/><strong>Role:</strong> Author, developer and programmer.',
-                    'thumbnail': ['portfolio/images/small/19a.jpg'],
-                    'large': ['portfolio/images/large/19a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                        'title': 'Demo',
-                            'url': 'https://vr-experiment-chess.glitch.me/',
-                            'new_window': true
-
-                    }],
-                    'tags': ['AR/VR', 'Experiments']
-                },
+                
                 {
                     'title': 'Intangible Cultural Heritage of Uzbekistan Website, 2014',
                     'description': '<strong>Description</strong>: The official website of intangible cultural heritage of Uzbekistan was developed on the request of the National Commission of Uzbekistan for UNESCO and ICHCAP in the Republic of Korea. Main goal of the website is to inform the public about existing elements of intangible cultural heritage and provide reference information. The website was created in 3 languages (English, Uzbek and Russian) and was adapted to mobile/tabled devices. Additional features are: a spell check system (by selecting and clicking “Ctrl+Enter”), photo, video and audio sections. The website also has an integrated database system, which allows relevant specialist to enter the data on any ICH element with accompanying files directly into the database from onsite location.<br/><strong>Role:</strong>  Designer, developer and translator.',
@@ -337,24 +298,12 @@
                     }],
                     'tags': ['Web']
                 },
-                {
-                    'title': 'Flash-based Presentation Platform, 2011',
-                    'description': '<strong>Description</strong>: The presentation platform was developed as a part of the classes at the Willy Brandt School of Public Policy, Erfurt University. The aim of the project – to deliver presentation/information in an interactive and user-friendly manner. Interactive objects are the map, envelope, ipod and coffee cup. <br/><strong>Role:</strong> Author and developer.',
-                    'thumbnail': ['portfolio/images/small/1a.jpg'],
-                    'large': ['portfolio/images/large/1a.jpg'],
-                    'img_title': ['Presentation platform main screenshot', 'Presentation platform screenshot 2', 'Presentation platform screenshot 3', 'Presentation platform screenshot 4', 'Presentation platform screenshot 5'],
-                    'button_list': [{
-                        'title': 'Download',
-                        'url': 'https://drive.google.com/open?id=1WcakxuT8y0aXiN6G_45QHVgnAyxtZwZe',
-                        'new_window': true
-                    }],
-                    'tags': ['Web']
-                },
+               
                 {
                     'title': 'Mobile Educational Game Application “Time Machine”, 2018',
                     'description': '<strong>Description</strong>: Mobile educational game application was created to raise awareness of the users of mobile applications on ozone layer protection issues. The action in the game takes place in distant 2150. By this time mankind completely depleted the ozone layer of the earth due to uncontrolled emissions of ozone-depleting substances into the atmosphere. This resulted in gradual disappearance of all life on Earth. Players of the game will be playing for the main character, explore different locations and learn about the ozone layer. The game is built in such a way that it will be necessary to increase knowledge, and become familiar with information materials available on Internet on ozone topic. The game consists of the main game as well as 6 mini-games. It is the result of joint undertaking of the State Committee for Ecology and Environmental Protection, UNDP in Uzbekistan, HCFC Phase Out Project of UNDP in Uzbekistan, UNDP Istanbul Regional Hub, OzonAction Programme of UN Environment and Ozone Secretariat of UN Environment. <br/><strong>Role:</strong> Author, game developer (supporting role).',
                     'thumbnail': ['portfolio/images/small/11a.jpg'],
-                    'large': ['portfolio/images/large/11a.jpg'],
+                    'large': ['https://www.youtube.com/watch?v=F4uTF3-Z9d8'],
                     'img_title': ['Home page of the game', 'Mini games section', 'Game intro video'],
                     'button_list': [{
                             'title': 'Demo 1',
@@ -365,22 +314,15 @@
                             'title': 'Demo 2',
                             'url': 'http://ozonegame.org/TMQuiz.apk',
                             'new_window': true
+                        },
+                        {
+                            'title': 'Official Website',
+                            'url': 'http://game.o3.uz',
+                            'new_window': true
                         }
+                        
                     ],
                     'tags': ['Web', 'Experiments']
-                },
-                {
-                    'title': 'Understanding VR: Quiz, 2019',
-                    'description': '<strong>Description</strong>: The quiz application, which accompanies the course on the basics of VR was developed using Scratch scripting language. It was created to possibilities of Scratch for educational purposes.<br/><strong>Role:</strong> Author, developer and programmer.',
-                    'thumbnail': ['portfolio/images/small/15a.jpg'],
-                    'large': ['portfolio/images/large/15a.jpg'],
-                    'img_title': ['Home page of the game', 'Mini games section', 'Game intro video'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://scratch.mit.edu/projects/337922529/',
-                        'new_window': true
-                    }],
-                    'tags': ['Experiments']
                 }
 
 

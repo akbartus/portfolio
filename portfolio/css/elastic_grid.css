@@ -186,7 +186,7 @@
 
 .og-details p {
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 22px;
 	padding-bottom: 20px;
 }
@@ -836,7 +836,7 @@ nav#porfolio-nav li:last-child a {
 		padding-top: 18%;
 	}
 	#og-grid > li.all.visual.og-expanded {height:600px !important;}
-	.og-expander {height:500px !important;}
+	.og-expander {max-height:400px !important;}
 	.og-fullimg {display:none !important;}
 }
 
@@ -844,7 +844,7 @@ nav#porfolio-nav li:last-child a {
 
 @media (min-width: 1200px) {
 	.og-expander h3 { font-size: 35px; }
-	.og-expander p { font-size: 13px; text-align:justify;}
+	.og-expander p { font-size: 18px; text-align:justify;}
 	.og-expander a { font-size: 12px; }
 }
 

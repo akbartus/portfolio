@@ -8,138 +8,6 @@
             'expandingSpeed': 500,
             'expandingHeight': 500,
             'items': [{
-                    'title': 'Commitment Award Logo Design, 2012',
-                    'description': '<strong>Description</strong>: The Commitment Award is an annual contest, organized by the Willy Brandt School of Public Policy, which seeks to give students the opportunity to apply what they have learned at  School and to initiate new social initiatives in Erfurt and around the world. The logo was developed following the request made by the organizing committee of the award.<br/><strong>Role:</strong> I was author and designer of the logo.',
-                    'thumbnail': ['portfolio/images/small/3a.jpg'],
-                    'large': ['portfolio/images/large/3a.jpg'],
-                    'img_title': ['Commitment award website', 'Commitment award logo', 'Information about Commitment award'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'http://commitmentaward.org/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual']
-                },
-                {
-                    'title': '“Intangible Cultural Heritage Elements of the Ferghana Valley” project, 2013',
-                    'description': '<strong>Description</strong>: The project, implemented by the National Commission of Uzbekistan for UNESCO jointly with ICHCAP, aimed at digitizing intangible cultural heritage existing in the Ferghana Valley of Uzbekistan. In particular, audio and video materials on ICH elements were prepared and published as a set of 4 CDs and 6 DVDs.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials, including booklet, website, CDs/DVDs.',
-                    'thumbnail': ['portfolio/images/small/5a.jpg'],
-                    'large': ['portfolio/images/large/5a.jpg'],
-                    'img_title': ['All disks with demonstration of traditional pattern', 'Pattern on a disk', 'Pattern on a disk', 'Booklet cover design'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub5/main.php',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual']
-                },
-                {
-                    'title': '“Melodies from Uzbekistan” Project, 2015',
-                    'description': '<strong>Description</strong>: Within the framework of Uzbekistan Fine Arts Institute-ICHCAP Joint Cooperation Project damaged ICH-related data, available in the archive of the Institute and related to the fifties of the XX century, was restored, digitized and published in the form of 8 CDs and 2 DVDs. The aim of the project was improving public accessibility of ICH-related data.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials related to digitalization; translated all materials into English.',
-                    'thumbnail': ['portfolio/images/small/6a.jpg'],
-                    'large': ['portfolio/images/large/6a.jpg'],
-                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub18/index.php',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual']
-                },
-                {
-                    'title': '“GCF Readiness Programme in Uzbekistan” Project Website, 2018',
-                    'description': '<strong>Description</strong>: GCF Readiness Program in Uzbekistan was a project implemented by UNDP, UN Environment and World Resources Institute dealing with strengthening the national capacity to effectively and efficiently plan for, access, manage, deploy and monitor climate financing through the GCF. The website was developed as one of the outputs during my involvement with the project.<br/><strong>Role:</strong> Developer, designer and translator.',
-                    'thumbnail': ['portfolio/images/small/31a.jpg'],
-                    'large': ['portfolio/images/large/31a.jpg'],
-                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://gcf.climatechange.uz/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual', 'Web']
-                },
-                       {
-                    'title': '“Ozone Information Portal”, 2019',
-                    'description': '<strong>Description</strong>: "Ozone Information Portal" was developed as part of the project of UNDP in Uzbekistan on phasing out ozone depleting substances. It also serves as a major information source on ozone protection related measures undertaken within Uzbekistan.<br/><strong>Role:</strong> Developer.',
-                    'thumbnail': ['portfolio/images/small/32a.jpg'],
-                    'large': ['portfolio/images/large/32a.jpg'],
-                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'http://o3.uz/en/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual', 'Web']
-                },
-                {
-                    'title': 'Photo Album of the International Photo Contest, 2017',
-                    'description': '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during the Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing the album.',
-                    'thumbnail': ['portfolio/images/small/9a.jpg'],
-                    'large': ['portfolio/images/large/9a.jpg'],
-                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://drive.google.com/file/d/1y7Pya0Lmu1kwgnLXxyBwxyheE7I8ozX4/view',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual']
-                },
-                
-                {
-                    'title': 'Identity Theft: A Dialogue Based Infographic, 2020',
-                    'description': '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> Author and developer.',
-                    'thumbnail': ['portfolio/images/small/21a.jpg'],
-                    'large': ['portfolio/images/large/21a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://identity-theft-interactive-infographic.glitch.me/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual', 'Web']
-                },
-                {
-                    'title': 'Virtual Reality Museum, 2020',
-                    'description': '<strong>Description</strong>: This project demonstrates the use of web virtual reality to explain virtual reality. The VR experience supports google cardboard and other VR headsets.<br/><strong>Role:</strong> Author and Developer.',
-                    'thumbnail': ['portfolio/images/small/23a.jpg'],
-                    'large': ['portfolio/images/large/23a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://akbartus-vrmuseum.glitch.me/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual', 'AR/VR']
-                },
-                {
-                    'title': 'College Green Virtual Reality Tour with Selfie, 2020',
-                    'description': '<strong>Description</strong>: The project was initiated on the request of Ohio Today magazine for its Fall 2020 issue. The VR experience is made using various technological solutions. In particular experiment was done on using machine learning (Person Segmentation) in taking selfie photos in (web) 360 environment . <br/><strong>Role:</strong> Author, Designer and Developer.',
-                    'thumbnail': ['portfolio/images/small/24a.jpg'],
-                    'large': ['portfolio/images/large/24a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://ohiotoday.org/CollegeGreenVR/',
-                        'new_window': true
-                    }],
-                    'tags': ['AR/VR', 'Experiments']
-                },
-                {
-                    'title': 'Web Accessibility: An Interactive Infographic, 2020',
-                    'description': '<strong>Description</strong>: The infographic was developed as a separate project. Main aim is to demonstrate web accessibility features which can be applied in developing interactive infographics.<br/><strong>Role:</strong> Designer and developer.',
-                    'thumbnail': ['portfolio/images/small/22a.jpg'],
-                    'large': ['portfolio/images/large/22a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                        'title': 'Demo',
-                        'url': 'https://webaccessibility-infographic.glitch.me/',
-                        'new_window': true
-                    }],
-                    'tags': ['Visual', 'Web']
-                },
-               
-                {
                     'title': 'AR Experience and 3d Model for Ohio Today Magazine, 2020',
                     'description': '<strong>Description</strong>: For winter 2020 issue of Ohio Today magazine an augmented reality experience and 3d model was created to accompany the interview/article about 3d printing. 3d model of Thomas Jefferson was originally developed from real-life model using photogammetry technology and Blender. AR is available in print version of the magazine only.<br/><strong>Role:</strong> Author, developer and programmer.',
                     'thumbnail': ['portfolio/images/small/18a.jpg'],
@@ -158,14 +26,12 @@
                     'thumbnail': ['portfolio/images/small/16a.jpg'],
                     'large': ['https://www.youtube.com/watch?v=Kg-IaD3oRYg'],
                     'img_title': ['Screenshot 1'],
-                    'button_list': [
-                        {
-                            'title': 'Download',
-                            'url': 'https://drive.google.com/open?id=1mfV8WJqRa2ADruIpUD5-6u4ZCsUuMuHp',
-                            'new_window': true
-                        }
-                    ],
-                    'tags': ['AR/VR', 'Experiments']
+                    'button_list': [{
+                        'title': 'Download',
+                        'url': 'https://drive.google.com/open?id=1mfV8WJqRa2ADruIpUD5-6u4ZCsUuMuHp',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
                 },
                 {
                     'title': 'Class Gateway: 3d Modeling with Photogrammetry, 2020',
@@ -174,30 +40,39 @@
                     'large': ['portfolio/images/large/25a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://photogrammetry-experiment2.glitch.me/',
-                            'new_window': true
-                        }],
-                    'tags': ['AR/VR', 'Experiments']
+                        'title': 'Demo',
+                        'url': 'https://photogrammetry-experiment2.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
                 },
-                       {
-                    'title': 'Experiments with Interactive PDF, 2017 and 2020',
-                    'description': '<strong>Description</strong>: It is well known that files with .pdf are widely used in preparing documents. However .pdf files also support a great number of features, which could be used in storytelling and making the content more interesting. With these interactivity experiments I sought to explore possibilities of .pdf files, in particular using interactive information delivery and 3d modeling.<br/><strong>Role:</strong> Author, creator.',
-                    'thumbnail': ['portfolio/images/small/33a.jpg'],
-                    'large': ['portfolio/images/large/33a.jpg'],
+
+
+                {
+                    'title': 'Virtual Reality Museum, 2020',
+                    'description': '<strong>Description</strong>: This project demonstrates the use of web virtual reality to explain virtual reality. The VR experience supports google cardboard and other VR headsets.<br/><strong>Role:</strong> Author and Developer.',
+                    'thumbnail': ['portfolio/images/small/23a.jpg'],
+                    'large': ['portfolio/images/large/23a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://drive.google.com/file/d/11__3iXjj5lApD_Yj8NgQYRBaCDrIitgx/view?usp=sharing',
-                            'new_window': true
-                        },
-                        {
-                            'title': 'Demo',
-                            'url': 'https://drive.google.com/file/d/1uz5ugOQ-etvPgNfbCHgqcayM63b3KoFp/view?usp=sharing',
-                            'new_window': true
-                        }
-                    ],
-                    'tags': ['Experiments']
+                        'title': 'Demo',
+                        'url': 'https://akbartus-vrmuseum.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
+                },
+                {
+                    'title': 'College Green Virtual Reality Tour with Selfie, 2020',
+                    'description': '<strong>Description</strong>: The project was initiated on the request of Ohio Today magazine for its Fall 2020 issue. The VR experience is made using various technological solutions. In particular experiment was done on using machine learning (Person Segmentation) in taking selfie photos in (web) 360 environment . <br/><strong>Role:</strong> Author, Designer and Developer.',
+                    'thumbnail': ['portfolio/images/small/24a.jpg'],
+                    'large': ['portfolio/images/large/24a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://ohiotoday.org/CollegeGreenVR/',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
                 },
                 {
                     'title': 'Virtual Reality Portal with Speech Recognition, 2020',
@@ -206,11 +81,11 @@
                     'large': ['portfolio/images/large/26a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://drive.google.com/file/d/1IlT-g1rASglL50oenkw8Dnv5Ia6FMX93/view?usp=sharing',
-                            'new_window': true
-                        }],
-                    'tags': ['AR/VR', 'Experiments']
+                        'title': 'Demo',
+                        'url': 'https://drive.google.com/file/d/1IlT-g1rASglL50oenkw8Dnv5Ia6FMX93/view?usp=sharing',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
                 },
                 {
                     'title': 'Immersive Reader in Virtual Reality, 2020',
@@ -219,40 +94,14 @@
                     'large': ['portfolio/images/large/27a.jpg'],
                     'img_title': ['Screenshot 1'],
                     'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://drive.google.com/file/d/1JfX03V_bZ2W2nVAZ2uNUIZl2KvpaImsB/view?usp=sharing',
-                            'new_window': true
-                        }],
-                    'tags': ['AR/VR', 'Experiments']
+                        'title': 'Demo',
+                        'url': 'https://drive.google.com/file/d/1JfX03V_bZ2W2nVAZ2uNUIZl2KvpaImsB/view?usp=sharing',
+                        'new_window': true
+                    }],
+                    'tags': ['AR/VR']
                 },
-                {
-                    'title': 'Snake Game with Machine Learning, 2020',
-                    'description': '<strong>Description</strong>: The project sought to explore the possibilities of machine learning, in particular, by applying image recognition (computer vision) in controlling the game environment. It is a simple game, which has 4 commands. It was made using Tensorflow.js and JavaScript.<br/><strong>Role:</strong> Author, developer.',
-                    'thumbnail': ['portfolio/images/small/28a.jpg'],
-                    'large': ['portfolio/images/large/28a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://snake-game-with-machine-ml.glitch.me/',
-                            'new_window': true
-                        }],
-                    'tags': ['Web', 'Experiments']
-                },
-                {
-                    'title': 'Fingerspelling with Web Speech API, 2020',
-                    'description': '<strong>Description</strong>: The project was aimed at studying the use of Web Speech API in improving web accessibility. The given project recognizes spoken English language and shows relevant fingerspelling letters (ASL) in gif format in sequence.<br/><strong>Role:</strong> Author, developer.',
-                    'thumbnail': ['portfolio/images/small/29a.jpg'],
-                    'large': ['portfolio/images/large/29a.jpg'],
-                    'img_title': ['Screenshot 1'],
-                    'button_list': [{
-                            'title': 'Demo',
-                            'url': 'https://fingerspelling.glitch.me/',
-                            'new_window': true
-                        }],
-                    'tags': ['Web', 'Experiments']
-                },
-               
-                
+
+
                 {
                     'title': 'Intangible Cultural Heritage of Uzbekistan Website, 2014',
                     'description': '<strong>Description</strong>: The official website of intangible cultural heritage of Uzbekistan was developed on the request of the National Commission of Uzbekistan for UNESCO and ICHCAP in the Republic of Korea. Main goal of the website is to inform the public about existing elements of intangible cultural heritage and provide reference information. The website was created in 3 languages (English, Uzbek and Russian) and was adapted to mobile/tabled devices. Additional features are: a spell check system (by selecting and clicking “Ctrl+Enter”), photo, video and audio sections. The website also has an integrated database system, which allows relevant specialist to enter the data on any ICH element with accompanying files directly into the database from onsite location.<br/><strong>Role:</strong>  Designer, developer and translator.',
@@ -298,7 +147,161 @@
                     }],
                     'tags': ['Web']
                 },
-               
+                {
+                    'title': 'Commitment Award Logo Design, 2012',
+                    'description': '<strong>Description</strong>: The Commitment Award is an annual contest, organized by the Willy Brandt School of Public Policy, which seeks to give students the opportunity to apply what they have learned at  School and to initiate new social initiatives in Erfurt and around the world. The logo was developed following the request made by the organizing committee of the award.<br/><strong>Role:</strong> I was author and designer of the logo.',
+                    'thumbnail': ['portfolio/images/small/3a.jpg'],
+                    'large': ['portfolio/images/large/3a.jpg'],
+                    'img_title': ['Commitment award website', 'Commitment award logo', 'Information about Commitment award'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'http://commitmentaward.org/',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual']
+                },
+                {
+                    'title': '“Intangible Cultural Heritage Elements of the Ferghana Valley” project, 2013',
+                    'description': '<strong>Description</strong>: The project, implemented by the National Commission of Uzbekistan for UNESCO jointly with ICHCAP, aimed at digitizing intangible cultural heritage existing in the Ferghana Valley of Uzbekistan. In particular, audio and video materials on ICH elements were prepared and published as a set of 4 CDs and 6 DVDs.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials, including booklet, website, CDs/DVDs.',
+                    'thumbnail': ['portfolio/images/small/5a.jpg'],
+                    'large': ['portfolio/images/large/5a.jpg'],
+                    'img_title': ['All disks with demonstration of traditional pattern', 'Pattern on a disk', 'Pattern on a disk', 'Booklet cover design'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub5/main.php',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual']
+                },
+                {
+                    'title': '“Melodies from Uzbekistan” Project, 2015',
+                    'description': '<strong>Description</strong>: Within the framework of Uzbekistan Fine Arts Institute-ICHCAP Joint Cooperation Project damaged ICH-related data, available in the archive of the Institute and related to the fifties of the XX century, was restored, digitized and published in the form of 8 CDs and 2 DVDs. The aim of the project was improving public accessibility of ICH-related data.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing all materials related to digitalization; translated all materials into English.',
+                    'thumbnail': ['portfolio/images/small/6a.jpg'],
+                    'large': ['portfolio/images/large/6a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://www.unesco-ichcap.org/eng/ek/sub18/index.php',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual']
+                },
+                {
+                    'title': 'Photo Album of the International Photo Contest, 2017',
+                    'description': '<strong>Description</strong>: The photo album was developed following successful organizations of the international photo contest and distributed among the delegates of 197 countries during the Meeting of the Parties to the Montreal Protocol in November 2017, in Montreal, Canada.<br/><strong>Role:</strong> I was part of the project implementation team, who was in charge of designing the album.',
+                    'thumbnail': ['portfolio/images/small/9a.jpg'],
+                    'large': ['portfolio/images/large/9a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://drive.google.com/file/d/1y7Pya0Lmu1kwgnLXxyBwxyheE7I8ozX4/view',
+                        'new_window': true
+                    }],
+                    'tags': ['Visual']
+                },
+
+                {
+                    'title': 'Web Accessibility: An Interactive Infographic, 2020',
+                    'description': '<strong>Description</strong>: The infographic was developed as a separate project. Main aim is to demonstrate web accessibility features which can be applied in developing interactive infographics.<br/><strong>Role:</strong> Designer and developer.',
+                    'thumbnail': ['portfolio/images/small/22a.jpg'],
+                    'large': ['portfolio/images/large/22a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://webaccessibility-infographic.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Visual']
+                },
+                {
+                    'title': '“GCF Readiness Programme in Uzbekistan” Project Website, 2018',
+                    'description': '<strong>Description</strong>: GCF Readiness Program in Uzbekistan was a project implemented by UNDP, UN Environment and World Resources Institute dealing with strengthening the national capacity to effectively and efficiently plan for, access, manage, deploy and monitor climate financing through the GCF. The website was developed as one of the outputs during my involvement with the project.<br/><strong>Role:</strong> Developer, designer and translator.',
+                    'thumbnail': ['portfolio/images/small/31a.jpg'],
+                    'large': ['portfolio/images/large/31a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://gcf.climatechange.uz/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Visual']
+                },
+                {
+                    'title': '“Ozone Information Portal”, 2019',
+                    'description': '<strong>Description</strong>: "Ozone Information Portal" was developed as part of the project of UNDP in Uzbekistan on phasing out ozone depleting substances. It also serves as a major information source on ozone protection related measures undertaken within Uzbekistan.<br/><strong>Role:</strong> Developer.',
+                    'thumbnail': ['portfolio/images/small/32a.jpg'],
+                    'large': ['portfolio/images/large/32a.jpg'],
+                    'img_title': ['Screenshot 1', 'Screenshot 2', 'Screenshot 3', 'Design of the box for disks', 'Main menu in autorun', 'Gallery in autorun'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'http://o3.uz/en/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Visual']
+                },
+                {
+                    'title': 'Identity Theft: A Dialogue Based Infographic, 2020',
+                    'description': '<strong>Description</strong>: The infographic was developed within the framework of Advanced Graphic Design course. It demonstrates an approach to building an infographic using conversational method.<br/><strong>Role:</strong> Author and developer.',
+                    'thumbnail': ['portfolio/images/small/21a.jpg'],
+                    'large': ['portfolio/images/large/21a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://identity-theft-interactive-infographic.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Visual']
+                },
+
+
+                {
+                    'title': 'Experiments with Interactive PDF, 2017 and 2020',
+                    'description': '<strong>Description</strong>: It is well known that files with .pdf are widely used in preparing documents. However .pdf files also support a great number of features, which could be used in storytelling and making the content more interesting. With these interactivity experiments I sought to explore possibilities of .pdf files, in particular using interactive information delivery and 3d modeling.<br/><strong>Role:</strong> Author, creator.',
+                    'thumbnail': ['portfolio/images/small/33a.jpg'],
+                    'large': ['portfolio/images/large/33a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                            'title': 'Demo',
+                            'url': 'https://drive.google.com/file/d/11__3iXjj5lApD_Yj8NgQYRBaCDrIitgx/view?usp=sharing',
+                            'new_window': true
+                        },
+                        {
+                            'title': 'Demo',
+                            'url': 'https://drive.google.com/file/d/1uz5ugOQ-etvPgNfbCHgqcayM63b3KoFp/view?usp=sharing',
+                            'new_window': true
+                        }
+                    ],
+                    'tags': ['Experiments']
+                },
+
+                {
+                    'title': 'Snake Game with Machine Learning, 2020',
+                    'description': '<strong>Description</strong>: The project sought to explore the possibilities of machine learning, in particular, by applying image recognition (computer vision) in controlling the game environment. It is a simple game, which has 4 commands. It was made using Tensorflow.js and JavaScript.<br/><strong>Role:</strong> Author, developer.',
+                    'thumbnail': ['portfolio/images/small/28a.jpg'],
+                    'large': ['portfolio/images/large/28a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://snake-game-with-machine-ml.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Experiments']
+                },
+                {
+                    'title': 'Fingerspelling with Web Speech API, 2020',
+                    'description': '<strong>Description</strong>: The project was aimed at studying the use of Web Speech API in improving web accessibility. The given project recognizes spoken English language and shows relevant fingerspelling letters (ASL) in gif format in sequence.<br/><strong>Role:</strong> Author, developer.',
+                    'thumbnail': ['portfolio/images/small/29a.jpg'],
+                    'large': ['portfolio/images/large/29a.jpg'],
+                    'img_title': ['Screenshot 1'],
+                    'button_list': [{
+                        'title': 'Demo',
+                        'url': 'https://fingerspelling.glitch.me/',
+                        'new_window': true
+                    }],
+                    'tags': ['Web', 'Experiments']
+                },
+
+
                 {
                     'title': 'Mobile Educational Game Application “Time Machine”, 2018',
                     'description': '<strong>Description</strong>: Mobile educational game application was created to raise awareness of the users of mobile applications on ozone layer protection issues. The action in the game takes place in distant 2150. By this time mankind completely depleted the ozone layer of the earth due to uncontrolled emissions of ozone-depleting substances into the atmosphere. This resulted in gradual disappearance of all life on Earth. Players of the game will be playing for the main character, explore different locations and learn about the ozone layer. The game is built in such a way that it will be necessary to increase knowledge, and become familiar with information materials available on Internet on ozone topic. The game consists of the main game as well as 6 mini-games. It is the result of joint undertaking of the State Committee for Ecology and Environmental Protection, UNDP in Uzbekistan, HCFC Phase Out Project of UNDP in Uzbekistan, UNDP Istanbul Regional Hub, OzonAction Programme of UN Environment and Ozone Secretariat of UN Environment. <br/><strong>Role:</strong> Author, game developer (supporting role).',
@@ -320,7 +323,7 @@
                             'url': 'http://game.o3.uz',
                             'new_window': true
                         }
-                        
+
                     ],
                     'tags': ['Web', 'Experiments']
                 }

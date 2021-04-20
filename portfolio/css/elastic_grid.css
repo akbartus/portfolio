@@ -199,7 +199,7 @@
 
 .og-details a.link-button {
 	padding: 8px 10px;
-    color: #000000 !important;
+    color: #fff !important;
     cursor: pointer !important;
     font-size: 14px;
     font-weight: bold;
@@ -218,6 +218,12 @@
 	margin-right: 10px;
 }*/
 
+.og-details a {
+	/*border-color: #999;*/
+	/*color: #999;*/
+	background-color: #eba034;
+	color: #fff !important;
+}
 .og-details a:hover {
 	/*border-color: #999;*/
 	/*color: #999;*/
@@ -225,6 +231,8 @@
 	color: #fff !important;
 	
 }
+
+
 
 .og-loading {
 	width: 20px;
